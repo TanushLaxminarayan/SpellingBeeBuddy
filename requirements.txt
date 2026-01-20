@@ -1,0 +1,8 @@
+faster-whisper
+piper-voice
+sounddevice
+scipy
+numpy
+pvporcupine
+pyaudio
+aiohttp

@@ -1,0 +1,13 @@
+[Unit]
+Description=SpellingBeeBuddy Wake Word Listener
+After=multi-user.target
+
+[Service]
+ExecStart=/home/pi/SpellingBeeBuddy/venv/bin/python wake_listener.py
+WorkingDirectory=/home/pi/SpellingBeeBuddy
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+
